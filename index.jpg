@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        .container {
+            background-color: rgb(240, 229, 229);
+            /* display: inline-block; */
+            display: flex;
+
+        }
+
+        .box1 {
+
+            margin-right: 5px;
+            margin-top: 5px;
+            padding-right: 5px;
+            /* background-color: aquamarine; */
+            /* align-content: center; */
+            height: 1825px;
+            width: 50vw;
+            border: 2px solid black;
+            /* column-gap : 20px; */
+            /* align-items: right; */
+        }
+
+        ul {
+            list-style: none;
+
+        }
+
+        header {
+            background-color: black;
+            width: 688px;
+        }
+
+        ul.one li {
+            /* display: flex; */
+            display: inline-block;
+            padding: 35px;
+        }
+
+        img {
+            /* margin-top: px; */
+            /* margin-left: 3px; */
+        }
+
+        nav {
+            /* display:inline-block; */
+
+            color: black;
+            width: 690px;
+            height: 60px;
+        }
+
+        ul.two li {
+            display: inline-block;
+            padding: 13px;
+            margin-bottom: 20px;
+            /* width: 100%; */
+            /* align-content: space-between; */
+
+
+
+
+        }
+
+
+
+        .image1 {
+            margin: 0%;
+            background: url(./3rd\ back.jpg);
+            width: 688px;
+            height: 270px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+
+            /* place-items: center; */
+
+
+
+        }
+
+        .text {
+
+            text-align: center;
+            color: darkred;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            font-style: italic;
+            position: absolute;
+            margin-left: 180px;
+            margin-bottom: 5px;
+
+
+
+
+        }
+
+        .head1 {
+            margin-top: 0px;
+        }
+
+        .para1 {
+            text-align: center;
+            color: darkred;
+            margin-top: 100px;
+            font-size: larger;
+            position: absolute;
+            margin-left: 100px;
+        }
+
+        .but1 {
+            /* align-self: center; */
+            background-color: rgb(135, 210, 30);
+            text-align: center;
+            margin: 0%;
+            /* position: absolute; */
+            margin-top: 179px;
+            margin-left: 18px;
+            top: 60%;
+            -ms-transform: translateY(-90%);
+            transform: translateY(-90%);
+
+            transform: translateX(295px);
+            font-size: 20px;
+            border: blue;
+            /* size: 24px; */
+            height: 40px;
+            width: 120px;
+
+        }
+
+        .page3 {
+            display: inline;
+            display: flex;
+            width: 680px;
+            border-style: double;
+            border-color: rgb(0, 255, 55);
+            /* position: static; */
+        }
+
+        .three li {
+            list-style: none;
+            display: inline-block;
+            padding: 20px;
+            /* margin-bottom:20px ; */
+        }
+
+        .head2 {
+            text-align: center;
+            color: rgb(127, 139, 0);
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 15px;
+            /* font-style: italic; */
+            position: absolute;
+            margin-left: 230px;
+            margin-bottom: 5px;
+
+        }
+
+        .three {
+            margin-top: 50px;
+        }
+
+        .head3 {
+            text-align: center;
+            color: rgb(139, 109, 0);
+            /* font-size: 30px; */
+            font-weight: bold;
+            margin-top: 15px;
+
+        }
+
+        .para2 {
+            font-size: 10px;
+        }
+
+        .but2 {
+            background-color: rgb(135, 210, 30);
+            text-align: center;
+            margin: 0%;
+            position: absolute;
+            top: 1050px;
+            -ms-transform: translateY(-90%);
+            transform: translateY(-3000px);
+
+            transform: translateX(120px);
+            font-size: 20px;
+            border: blue;
+            /* size: 24px; */
+            height: 40px;
+            width: 120px;
+        }
+
+        .head4 {
+            text-align: center;
+            color: rgb(127, 139, 0);
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+            /* margin-top: 5px; */
+            /* font-style: italic; */
+            /* position: absolute; */
+            /* margin-left: 230px; */
+            /* margin-bottom: 5px; */
+
+
+        }
+
+        /* .container2 img {
+            margin-bottom: 60px;
+        } */
+        .image2 {
+            display: inline-block;
+            margin-left: 377px;
+
+        }
+
+        div.img2 {
+            align-self: right;
+
+
+        }
+
+        .para3 p {
+            display: grid;
+
+            text-align: left;
+            justify-content: left;
+
+            /* display: inline-block; */
+            /* display: flex; */
+            width: 680px;
+            margin-top: 50px;
+            margin-left: 8px;
+            color: darkgreen;
+
+        }
+
+        #hp {
+            float: left;
+            /* margin: 0 0 0 15px; */
+            margin-top: -248px;
+        }
+
+        .head5 {
+            text-align: center;
+            color: rgb(139, 109, 0);
+            /* font-size: 30px; */
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 11px;
+        }
+
+        .fatherflex {
+            /* border: 2px solid grey; */
+            margin-top: 60px;
+            height: 237px;
+            width: 686px;
+            background-color: lightgray;
+
+            /* display: inline; */
+
+        }
+
+        .icon1 {
+            position: absolute;
+            margin-top: -7px;
+            margin-left: 58px;
+            height: 50px;
+        }
+
+        .icon2 {
+            position: absolute;
+            margin-top: -7px;
+            margin-left: 228px;
+            height: 50px;
+        }
+
+        .icon3 {
+            position: absolute;
+            margin-top: -7px;
+            margin-left: 397px;
+            height: 50px;
+        }
+
+        .icon4 {
+            position: absolute;
+            margin-top: -7px;
+            margin-left: 567px;
+            height: 50px;
+        }
+
+        .flex {
+
+
+            display: inline-block;
+            display: flex;
+            width: 680px;
+            /* border-style: double; */
+            /* border-color: rgb(0, 255, 55); */
+            height: 150px;
+            ;
+
+        }
+
+        /* .firstdiv{
+                border: 1px solid black;
+                background-color: grey;
+                display: inline-block;
+            display: flex;
+             ;} */
+
+        .firstdiv {
+            /* border: 1px solid black; */
+            background-color: grey;
+            display: inline-block;
+            /* display: flex; */
+            height: 150px;
+            margin: 3px 12px 138px 8px;
+            text-align: center;
+            width: 150px;
+
+        }
+
+        .seconddiv {
+            /* border: 1px solid black; */
+            background-color: grey;
+            display: inline-block;
+            /* display: flex; */
+            height: 150px;
+            margin: 3px 12px 138px 8px;
+            ;
+            width: 150px;
+            text-align: center;
+
+
+
+        }
+
+        .thirdiv {
+            /* border: 1px solid black; */
+            background-color: grey;
+            display: inline-block;
+            /* display: flex; */
+            height: 150px;
+            margin: 3px 12px 138px 8px;
+            text-align: center;
+            width: 150px;
+
+
+
+        }
+
+        .fourthdiv {
+            /* border: 1px solid black; */
+            background-color: grey;
+            display: inline-block;
+            /* display: flex; */
+            height: 150px;
+            margin: 3px 12px 138px 8px;
+            text-align: center;
+            width: 150px;
+
+
+        }
+
+
+        .read1 {
+            color: yellow;
+        }
+
+        .head6 {
+            text-align: center;
+            color: brown;
+            /* font-size: 30px; */
+            font-weight: bold;
+            margin-top: px;
+            display: inline-block;
+            margin-bottom: 5px;
+            margin-left: 15px;
+            margin-top: 50px;
+            justify-content: inherit;
+            /* align-self: top-center; */
+
+
+        }
+
+        .para5 {
+            font-size: 10px;
+            text-align: center;
+
+            margin-top: 30px;
+            align-self: normal;
+            color: darkgreen;
+
+        }
+
+        .para4 {
+            background-color: black;
+            text-align: center;
+            color: green;
+        }
+
+        table {
+            padding: 52px;
+        }
+
+        .tab1 img {
+            height: 127px;
+            width: 166px;
+            margin-left: -23px;
+
+        }
+
+        .tab2 img {
+            height: 127px;
+            width: 166px;
+            margin-left: -25px;
+        }
+
+        .box2 {
+            /* display: flex; */
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding-left: 10px;
+            /* background-color: blueviolet; */
+            height: 1825px;
+            width: 45vw;
+            border: 2px solid black;
+
+            /* border-spacing: 0 100; */
+        }
+
+
+        .boxp1 {
+            display: inline-block;
+            /* display: flex; */
+            width: 623px;
+            background-color: lightgrey;
+            margin-top: 2px;
+            margin-left: -9px;
+
+            /* border-style: double;
+            border-color: rgb(0, 255, 55); */
+            /* position: static; */
+        }
+
+        .four li {
+            list-style: none;
+            display: inline-block;
+            padding: 17px;
+            /* margin-bottom:20px ; */
+        }
+
+        .h2 {
+            text-align: center;
+            color: rgb(127, 139, 0);
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 15px;
+            /* font-style: italic; */
+            position: absolute;
+            margin-left: 230px;
+            margin-bottom: 5px;
+
+        }
+
+        .four {
+            margin-top: 50px;
+        }
+
+        .h3 {
+            text-align: center;
+            color: rgb(139, 109, 0);
+            /* font-size: 30px; */
+            font-weight: bold;
+            margin-top: 15px;
+
+        }
+
+        .par2 {
+            font-size: 10px;
+        }
+
+        .boxp2{
+            /* display: inline-block; */
+            height: 70px;
+            width: 100px;
+            /* background-color: lightslategrey; */
+            display: inline;
+            margin-top: 10px;
+            /* background-color: blue;
+            border: 2px solid red; */
+
+
+        }
+
+        .head7 {
+            color: black;
+            margin-top: 49px;
+
+        }
+
+        .boxp3 {
+            display: inline-block;
+
+        background-color: lightgrey;
+        margin-left: -7px;
+        width: 621px;
+        margin-top: 31px;
+
+        
+           
+        }
+
+        .boxp3 ul {
+            display: inline;
+        }
+
+        .boxp3 ul li {
+            height: 150px;
+         
+            display: inline-block;
+           
+  width: 144px;
+ 
+  margin-left: 5px;
+}
+        
+
+        .hp2 {
+            height: 125px;
+            width: 90px;
+            margin-top: 35px;
+            height: 97px;
+width: 142px;
+        }
+        .head7, .head8{
+            color: green;
+        }
+        .head8{
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .tab1h{
+            color: green;
+        }
+
+        .par3{
+            color: rgb(139, 109, 0);
+            margin-bottom: 50px;
+        }
+        .par4{
+            color: rgb(139, 109, 0);
+
+        }
+       .para6{
+            color: rgb(139, 109, 0);
+
+        }
+        .boxp4{
+            background-color: rgb(45, 190, 45);
+            height: 240px;
+            margin-left: -10px;
+            
+        }
+        #head9{
+            margin-bottom: 30px;
+            
+         
+        }
+        form{
+            margin-top: 57px;
+
+        }
+        .but3{
+            
+            background-color: rgb(210, 174, 30);
+            text-align: center;
+            margin: 0%;
+            position: absolute;
+            top: 1238px;
+            -ms-transform: translateY(-90%);
+            transform: translateY(-3000px);
+
+            transform: translateX(-64px);
+            font-size: 20px;
+            border: blue;
+            /* size: 24px; */
+            height: 40px;
+            width: 156px;
+        
+
+        }
+        .head10{
+            margin-top: 20px;
+            color: green;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <div>
+                <header>
+                    <ul class="one">
+                        <li><img src="./utube logo.jpg" width="50px" alt=""></li>
+                        <li><img src="./fblogo.jpg" width="50px" alt=""></li>
+                        <li><img src="./insta logo.jpg" width="50px" alt=""></li>
+                        <li><img src="./in logo.jpg" width="50px" alt=""></li>
+                        <li><img src="./twitter logo.jpg" width="50px" alt=""></li>
+                    </ul>
+
+
+                </header>
+            </div>
+            <div>
+                <nav>
+                    <ul class="two">
+                        <li><img src="./panacloud.jpg" width="60px" alt=""></li>
+                        <li>WHY US </li>
+                        <li>ABOUT </li>
+                        <!-- <li>SERVICES </li> -->
+                        <li>PORTFOLIO</li>
+                        <!-- <li>PROCESS</li> -->
+                        <li>OUR SKILLS </li>
+                        <li>CONTACT US </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="image1">
+                <div class="text">
+                    <h1 class="head1"> WE ARE EXPERTS</h1>
+                </div>
+                <div class="para1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> Error hic rem fugiat soluta obcaecati
+                    tempora placeat ut provident sed <br> vel veritatis vitae
+                </div>
+                <button class="but1">Read More</button>
+
+            </div>
+
+            <div class="page3">
+                <h1 class="head2">OUR ADVANTAGES</h1> <br> <br>
+                <ul class="three">
+                    <li> <img class="img2" src="./thumb1.jpg" alt="" height="80px" width="80px">
+                        <h5 class="head3">INNOVATION</h5> <br>
+                        <p class="para2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+
+
+                    </li>
+                    <li> <img src="./bulb 2.jpg" alt="" height="80px" width="80px">
+                        <h5 class="head3">INNOVATION</h5> <br>
+                        <p class="para2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./clock.jpg" alt="" height="80px" width="80px">
+                        <h5 class="head3">INNOVATION</h5> <br>
+                        <p class="para2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./chat.jpg" alt="" height="80px" width="80px">
+                        <h5 class="head3">INNOVATION</h5> <br>
+                        <p class="para2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./clients.jpg" alt="" height="80px" width="80px">
+                        <h5 class="head3">INNOVATION</h5> <br>
+                        <p class="para2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="container2">
+                <h1 class="head4">ABOUT US </h1>
+                <div class="para3">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing br
+                        <br> elit. Esse velit repudiandae autem illum placeat nam <br> officia aut labore nemo cum unde
+                        dolore assumenda,<br> aliquam quae deleniti? A alias inventore totam<br> dolores quae tempore
+                        velit commodi dolorem <br>ducimus eaque! Vitae, exercitationem vitae totam<br> nemo maxime
+                        nostrum magni, enim at! <br>Cupiditate, alias nobis? Provident minima vel<br> impedit dolore
+                        harum sit recusandae ex consequatur? <br>Architecto obcaecati fugiat quis nobis maxime<br>
+                        accusantium et maiores officiis repudiandae corrupti. <br>
+                    </p>
+
+                </div>
+                <button class="but2">Read More</button>
+                <div class="image2"><img id="hp" src="./istockphoto-1171496293-612x612.jpg" alt="" width="300px"
+                        height="300px"></div>
+
+            </div>
+            <div class="fatherflex">
+                <h1 class="head5">OUR SERVICES </h1>
+                <img class="icon1" src="./mark.png" width="50px" height="80" alt="">
+                <img class="icon2" src="./mark.png" width="50px" height="80" alt="">
+                <img class="icon3" src="./mark.png" width="50px" height="80" alt="">
+                <img class="icon4" src="./mark.png" width="50px" height="80" alt="">
+
+
+                <div class="flex">
+
+                    <div class="firstdiv">
+                        <h4 class="head6">Web Designing</h4>
+                        <p class="para5">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit <br>. Ex, ea.</p>
+                    </div>
+                    <div class="seconddiv"><img class="icon1" src="" alt="">
+                        <h4 class="head6">Graphic Design</h4>
+                        <p class="para5">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Ex, ea.</p>
+                    </div>
+                    <div class="thirdiv"><img class="icon2" src="" alt="">
+                        <h4 class="head6">Marketing</h4>
+                        <p class="para5">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Ex, ea.</p>
+                    </div>
+                    <div class="fourthdiv"><img class="icon4" src="" alt="">
+                        <h4 class="head6">Branding</h4>
+                        <p class="para5">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Ex, ea.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="para4">
+                <h1>OUR PORTFOLIO</h1>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Dolore fuga eveniet nisi facere.</P>
+                <table>
+                    <tr class="tab1">
+                        <td><img src="./end.jpg" alt=""></td>
+                        <td><img src="./end2.jpg" alt=""></td>
+                        <td><img src="./end3.jpg" alt=""></td>
+                        <td><img src="./end4.jpg" alt=""></td>
+
+
+
+                    </tr>
+                    <tr class="tab2">
+                        <td><img src="./end5.jpg" alt=""></td>
+                        <td><img src="./end8.jpg" alt=""></td>
+                        <td><img src="./end.jpg" alt=""></td>
+                        <td><img src="./end.jpg" alt=""></td>
+
+                    </tr>
+                </table>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="box2">
+            <div class="boxp1">
+                <h1 class="h2">OUR ADVANTAGES</h1> <br> <br>
+                <ul class="four">
+                    <li> <img class="img2" src="./thumb1.jpg" alt="" height="80px" width="80px">
+                        <h5 class="h3">INNOVATION</h5> <br>
+                        <p class="par2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+
+
+                    </li>
+                    <li> <img src="./bulb 2.jpg" alt="" height="80px" width="80px">
+                        <h5 class="h3">INNOVATION</h5> <br>
+                        <p class="par2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./clock.jpg" alt="" height="80px" width="80px">
+                        <h5 class="h3">INNOVATION</h5> <br>
+                        <p class="par2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./chat.jpg" alt="" height="80px" width="80px">
+                        <h5 class="h3">INNOVATION</h5> <br>
+                        <p class="par2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                    <li> <img src="./clients.jpg" alt="" height="80px" width="80px">
+                        <h5 class="h3">INNOVATION</h5> <br>
+                        <p class="par2"> Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing </p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="boxp2">
+                <center>
+                    <h2 class="head7">PEOPLE ABOUT US</h2>
+                    <p class="para6"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Error unde nesciunt aspernatur iste
+                    fugiat
+                    placeat reprehenderit</p>
+
+                </center>
+                <table  class="tab3">
+                    <tr>
+                        <td>
+                            <h3 class="tab1h">JOHN DOE</h3>
+                            <p class="par3"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aliquid consequuntur
+                                suscipit ea ipsa rem quibusdam</p> 
+
+                        </td>
+                        <td>
+                            <h3 class="tab1h">JOHN DOE</h3>
+                            <p class="par3"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aliquid consequuntur
+                                suscipit ea ipsa rem quibusdam</p> 
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3 class="tab1h">JOHN DOE</h3>
+                          <p class="par3"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aliquid consequuntur
+                            suscipit ea ipsa rem quibusdam</p> 
+
+                        </td>
+                        <td>
+                            <h3 class="tab1h">JOHN DOE</h3>
+                            <p class="par3"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aliquid consequuntur
+                                suscipit ea ipsa rem quibusdam</p> 
+
+                        </td>
+
+
+                    </tr>
+                </table>
+            </div>
+
+            <div class="boxp3">
+                <center>
+                    <h2 class="head8">OUR SKILLS</h2>
+                   <p class="par4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatem quae vitae <br>
+                    ad architecto quisquam modi? Officia, assumenda voluptate aperiam ab odit tempora!</p> 
+
+                </center>
+
+                <ul>
+                    <li><img class="hp2" src="./percent2.jpg" alt=""></li>
+                    <li><img class="hp2" src="./percent3.jpg" alt=""></li>
+                    <li><img class="hp2" src="./percent4.jpg" alt=""></li>
+                    <li><img class="hp2" src="./percent2.jpg" alt=""></li>
+
+
+
+                </ul>
+            </div>
+            <div class="boxp4">
+                <center>
+                    <h1 id="head9">START  YOUR NEW PROJECT</h1>
+                <form action="name">
+                    <input type="text" placeholder="enter name">
+                    <input type="email" placeholder="enter email">
+                    <input type="number" placeholder="enter phone number">
+                </form>
+
+                <button class="but3">send request</button>
+            </center>
+
+
+
+            </div>
+
+            <div class="boxp5">
+                   <center>
+                    <h1 class="head10">OUR CONTACTS</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corrupti perspiciatis consequuntur debitis atque.</p>
+
+
+                    <br><br><br>
+
+                    <img src="location.jpg"  height="20px" width="20px" alt="">Lorem ipsum dolor sit Lorem ipsum dolor sit.
+
+                    <br>
+                    <img src="./phone.jpg" height="15px" width="15px" alt="">(304) 386-6719
+                    <img src="./phone.jpg" height="15px" width="15px" alt="">(317) 011-3001
+                    
+
+
+                   </center>
+
+
+
+
+
+            </div>
+            <div class="boxp6">
+                <img src="" alt="">
+            </div>
+            <div class="boxp7">
+                <table><tr>
+                    <td> <img src="./panacloud.jpg" height="50px"  width="50px" alt="">
+                        <p class="para7">  Lorem ipsum dolor sit amet <br> adipisicing elit. Ipsa sit consectetur <br> pariatur tempore amet   ducimus i</p>  <br><br>
+          
+                        panacloud 2023
+                             </td>
+
+                             <td> <h4>SERVICES</h4>
+                                Lorem, ipsum.
+                                <br>Lorem, ipsum.
+                                <br>
+                                Lorem.
+                                <br>Lorem, ipsum dolor.
+                                <br>Lorem, ipsum dolor.
+                            
+                            
+                            </td>
+                            <td> <h4>USEFUL LINKS</h4>
+                                Lorem, ipsum.
+                                <br>Lorem, ipsum.
+                                <br>
+                                Lorem.
+                                <br>Lorem, ipsum dolor.
+                                <br>Lorem, ipsum dolor.
+                            
+                            
+                            </td> 
+                            <td> <h4>CONTACTS</h4>
+                               <img src="phone.jpg" height="15px" width="15px" alt="">+9230456789  <br>
+                               <img src="phone.jpg" height="15px" width="15px" alt="">+9234567890 
+                            
+                            
+                            </td>
+
+
+
+                </tr></table>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
